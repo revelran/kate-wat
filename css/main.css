@@ -1,0 +1,162 @@
+.wrapper {
+
+    min-height: 100%;
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+    color: #161515;
+    font-size: 32px;
+}
+
+.welcome {
+    background-color: #fff;
+    padding-bottom: 168px;
+
+}
+
+.welcome__container {
+    display: flex;
+}
+
+.offer {
+    padding-top: 104px;
+    max-width: 640px;
+}
+
+.offer__model {
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 53px;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 250px;
+    color: #272727;
+    line-height: 0.8;
+    margin-bottom: 54px;
+}
+
+
+.desc {
+    font-size: 32px;
+    line-height: 155%;
+    color: #161515;
+}
+
+.offer__desc {
+    margin-bottom: 61px;
+}
+
+.buy {
+    display: flex;
+}
+
+.buy__link {
+    background-color: #161515;
+    color: #fff;
+    font-size: 32px;
+    padding: 26px 74px;
+    display: inline-block;
+}
+
+
+.products__container .buy__price {
+    /* Тень 
+    box-chadow:  смешение_по_x смешение_по_y размытие растяжение цвет */
+    box-shadow: 0 0 28px 0 rgba(214, 214, 214, 0.25);
+    background-color: #fff;
+    display: inline-flex;
+    align-self: center;
+    font-size: 32px;
+
+}
+
+
+
+
+.products {
+    padding-top: 43px;
+    padding-bottom: 142px;
+}
+
+
+.container {}
+
+.products__container {
+    max-width: 531px;
+    text-align: center;
+}
+
+.products__header {
+    color: #000;
+    margin-bottom: 194px;
+}
+
+.supertitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.products__title {
+    font-weight: 400;
+    font-size: 72px;
+}
+
+.products__list {
+    margin-bottom: 100px;
+}
+
+/* Установить верхний нижний отступ для карточки( кроме последнего братского элемента с этим классом)*/
+.product:not(:last-child) {
+    margin-bottom: 150px;
+}
+
+.product__img {
+    max-width: 286px;
+    margin-bottom: 132px;
+}
+
+.product__desc {}
+
+.product__titel {
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.product__text {
+    line-height: 155%;
+}
+
+.products__desc {}
+
+.products__desc-titel {
+    font-weight: 400;
+    margin-bottom: 49px;
+    font-size: 32px;
+
+}
+
+.products__desc-titel::after {
+    content: "";
+    display: block;
+    width: 33.5%;
+    border-bottom: 1px solid #707070;
+    height: 10px;
+    margin: 0 auto;
+}
+
+.products__text {
+    font-size: 24px;
+    line-height: 1.7;
+}
+
+.products__desc-link {
+    font-weight: 500;
+    /* Текст с подчеркиванием */
+    text-decoration: underline;
+    color: #bb8b5d;
+}
